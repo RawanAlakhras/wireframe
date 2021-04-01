@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.all-container {
+    width: 70%;
+    margin: auto;
+}
+
+nav {
+    background-color: #e5989b;
+    width: 100%;
+}
+.d-inline-flex{
+    display: inline-flex;
+    align-items: center;  
+}
+h1 span{
+    color: red;
+}
+img {
+    width: 200px;
+    height: 200px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline;
+    margin: 10px;
+
+
+}
+
+.first-section {
+    display: inline-flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.prigh {
+    margin-left: 50px;
+}
+
+
+select {
+    width: 200px;
+    height: 20px;
+   
+}
+footer{
+   
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #232323;
+    color:#fff;
+    text-align: center;
+}
