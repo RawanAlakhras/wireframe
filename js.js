@@ -1,9 +1,12 @@
 var num = prompt("plz enter number :")
+document.getElementById("num").innerHTML=num;
 if (num %2 ==0){
-    alert("your number is even")
+    alert("your number is even");
+    document.getElementById("num").innerHTML +=" and it is even number.";
 }
 else{
     alert("your number is odd");
+    document.getElementById("num").innerHTML +=" and it is odd number.";
 }
 var user_name=prompt("plz enter your name:");
 if(user_name != "")
