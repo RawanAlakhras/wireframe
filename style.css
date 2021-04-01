@@ -8,8 +8,9 @@ body{
 }
 
 nav {
-    background-color: #e5989b;
-    width: 100%;
+    
+     background-color: #e5989b;
+     width: 100%;
 }
 .d-inline-flex{
     display: inline-flex;
