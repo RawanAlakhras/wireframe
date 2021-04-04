@@ -1,7 +1,7 @@
 var num = prompt("plz enter number :")
 
 document.getElementById("num").innerHTML=num;
-if (num %2 ==0){
+if (num %2 ===0){
     alert("your number is even");
     document.getElementById("num").innerHTML +=" and it is even number.";
 }
@@ -20,4 +20,20 @@ if(user_name != "")
 else{
     document.getElementById('name').innerHTML = " -->you didn't enter your name 😒";
     
+}
+var flowerType=prompt("are you prefer white sunflower or yellow sunflower?");
+while(flowerType!== 'white' && flowerType !=='yellow'){
+    flowerType=prompt("sorry but you should choose between white and yellow only");
+}
+function flowerName(num ){
+    if(num =='white'){
+        document.write("<img src='img/white.jpg' >");
+    }
+    else{
+        document.write("<img src='img/yelow.jpg' >");
+    }
+}
+var numOfFlower = prompt("how many flower do you want?")
+for (var i = 0; i<numOfFlower ;i++){
+    flowerName(flowerType);
 }
