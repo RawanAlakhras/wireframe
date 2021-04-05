@@ -28,8 +28,8 @@ var flowerType=prompt("are you prefer white sunflower or yellow sunflower?");
 while(flowerType!== 'white' && flowerType !=='yellow'){
     flowerType=prompt("sorry but you should choose between white and yellow only");
 }
-function flowerName(num ){
-    if(num =='white'){
+function flowerName(flowerType){
+    if(flowerType =='white'){
         document.write("<img src='img/white.jpg' >");
     }
     else{

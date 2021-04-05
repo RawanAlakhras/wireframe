@@ -52,6 +52,18 @@ select {
     height: 20px;
    
 }
+.color{
+    color:#5f939a;
+}
+.section-2{
+    height: 100%;
+    width: 100%;
+    padding:20px;
+    background-color: #5f939a;
+}
+.text-color{
+    color:#f05945;
+}
 footer{
    
     padding: 12px;
